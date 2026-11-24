@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fbf8f1;
+    color: #2f3a4a;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header,
+footer {
+    background-color: #7b5ea7;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section,
+.contact-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+}
+
+h2 {
+    color: #d9480f;
+}
+
+.intro {
+    font-style: italic;
+}
+
+strong {
+    color: #7b5ea7;
+}
+
+.photo-profil {
+    border-radius: 50%;
+}
+
+.loisirs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.loisirs span {
+    flex: 1 1 150px;
+    padding: 12px;
+    background-color: #cae8fb;
+    border-radius: 6px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px 12px;
+    border: 1px solid gray;
+}
+
+th {
+    background-color: #7b5ea7;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.contact-card label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.contact-card .champ {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.contact-card input:focus,
+.contact-card select:focus,
+.contact-card textarea:focus {
+    outline: 2px solid #7b5ea7;
+}
+
+.checkbox-field {
+    margin-bottom: 10px;
+}
+
+.checkbox-field label {
+    display: inline;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #7b5ea7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5d3f88;
+}
+
+footer {
+    padding: 8px 24px;
+    text-align: center;
+}
+
+.accueil {
+    text-align: center;
+    color: #7b5ea7;
+    font-style: italic;
+}
+
+body.sombre {
+    background-color: #2f3a4a;
+    color: white;
+}
+
+body.sombre section {
+    background-color: #3b4759;
+}
